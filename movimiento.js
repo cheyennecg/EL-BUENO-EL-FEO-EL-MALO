@@ -1,4 +1,4 @@
- <script>
+
         const data = {
             pallet: { name: "PUEBLO PALETA", leader: "Prof. Oak", type: "INICIO", color: "#ccc", poke: "🐾", as: "Starter", desc: "Aquí comienza tu aventura. ¡Elige bien a tu compañero!" },
             gym1: { name: "CIUDAD PLATEADA", leader: "Brock", type: "ROCA", color: "var(--rock)", poke: "🐍", as: "Onix", desc: "Ideal para tipos  🌿 o  💧. ¡Tú punto fuerte debe ser el ataque!" },
@@ -29,4 +29,3 @@
             `;
             document.getElementById('battle-text').innerHTML = html;
         }
-    </script>
