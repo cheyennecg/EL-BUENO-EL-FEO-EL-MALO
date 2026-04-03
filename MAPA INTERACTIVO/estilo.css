@@ -1,0 +1,159 @@
+:root {
+    --grass: #78C850;
+    --water: #68A0E8;
+    --path: #E0C068;
+    --rock: #B8A038;
+    --fire: #F08030;
+    --water-type: #6890F0;
+    --electric: #F8D030;
+    --grass-type: #78C850;
+    --poison: #A040A0;
+    --psychic: #F85888;
+    --ground: #E0C068;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: #2c3e50;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 { 
+    color: #fff; 
+    text-shadow: 4px 4px #000; 
+    font-size: 3.5rem; 
+    margin: 10px 0 20px 0; 
+}
+
+/* CONTENEDOR PRINCIPAL (Lado a lado) */
+.main-layout {
+    display: flex;
+    flex-direction: row; /* Alineación horizontal */
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1300px; /* Ajuste para que quepan ambos */
+}
+
+/* --- MAPA --- */
+#map-container {
+    position: relative;
+    width: 850px; /* Reducido un poco para dar espacio al panel */
+    height: 700px;
+    background-color: var(--grass);
+    border: 10px solid #1a1a1a;
+    image-rendering: pixelated;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    flex-shrink: 0; /* Evita que el mapa se encoja */
+}
+
+.water-bg {
+    position: absolute;
+    background-color: var(--water);
+    bottom: 0; left: 0; width: 400px; height: 350px;
+    border-top-right-radius: 100px;
+    z-index: 1;
+}
+
+.path { position: absolute; background-color: var(--path); z-index: 2; }
+
+/* Etiquetas de Ciudad */
+.label {
+    position: absolute;
+    background: #fff;
+    padding: 2px 6px;
+    border: 2px solid #000;
+    font-size: 16px;
+    z-index: 6;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+/* Nodos Interactivos */
+.node {
+    position: absolute;
+    width: 22px; 
+    height: 22px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: 0.2s ease;
+}
+
+.gym { background-color: #e74c3c; box-shadow: 0 0 10px #ff0000; }
+.town { background-color: #3498db; }
+.node:hover { transform: scale(1.4); z-index: 11; }
+
+/* --- PANEL DE COMBATE (Lateral ahora) --- */
+#battle-panel {
+    width: 350px; /* Ancho fijo para el lateral */
+    background: #fdfdfd;
+    border: 6px solid #333;
+    padding: 20px;
+    display: flex; /* Cambiado de grid a flex para mejor control vertical */
+    flex-direction: column;
+    min-height: 500px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+.pokemon-as {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 4px dashed #ccc; /* Línea divisoria horizontal */
+    margin-bottom: 20px;
+}
+
+.pokemon-as .sprite-box {
+    width: 120px; 
+    height: 120px;
+    background: #eee;
+    border: 3px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.battle-details { 
+    padding: 0; 
+    text-align: center; 
+}
+
+.battle-details h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.type-tag {
+    display: inline-block;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* POSICIONES DE LOS NODOS (Ajustadas al nuevo tamaño de mapa) */
+#p-paleta { bottom: 180px; left: 150px; }
+#p-verde { bottom: 350px; left: 150px; }
+#p-plateada { top: 80px; left: 150px; }
+#p-celeste { top: 80px; left: 550px; }
+#p-azulona { top: 230px; left: 400px; }
+#p-azafran { top: 230px; left: 550px; }
+#p-lavanda { top: 230px; left: 680px; }
+#p-carmin { top: 400px; left: 550px; }
+#p-fucsia { top: 550px; left: 500px; }
+#p-canela { bottom: 50px; left: 150px; }

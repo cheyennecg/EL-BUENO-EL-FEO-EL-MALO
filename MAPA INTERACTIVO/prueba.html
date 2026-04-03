@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanto Battle Map - Gen 1</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+   <h1>KANTO GYM GUIDE</h1>
+
+    <div class="main-layout" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+        
+        <div id="map-container">
+            <div class="water-bg"></div>
+            
+            <div class="path" style="bottom:200px; left:158px; width:8px; height:150px;"></div> 
+            <div class="path" style="top:100px; left:158px; width:8px; height:300px;"></div>   
+            <div class="path" style="top:88px; left:170px; width:380px; height:8px;"></div>    
+            <div class="path" style="top:90px; left:558px; width:8px; height:460px;"></div>    
+            <div class="path" style="top:238px; left:570px; width:230px; height:8px;"></div>   
+        
+            <div class="node town" id="p-paleta" onclick="updateBattle('pallet')"></div>
+            <div class="label" style="bottom:145px; left:125px;">PUEBLO PALETA</div>
+
+            <div class="node gym" id="p-verde" onclick="updateBattle('gym8')"></div>
+            <div class="label" style="bottom:350px; left:185px;">CIUDAD VERDE</div>
+
+            <div class="node gym" id="p-plateada" onclick="updateBattle('gym1')"></div>
+            <div class="label" style="top:45px; left:120px;">CIUDAD PLATEADA</div>
+
+            <div class="node gym" id="p-celeste" onclick="updateBattle('gym2')"></div>
+            <div class="label" style="top:45px; left:520px;">CIUDAD CELESTE</div>
+
+            <div class="node gym" id="p-azulona" onclick="updateBattle('gym4')"></div>
+            <div class="label" style="top:195px; left:375px;">CIUDAD AZULONA</div>
+
+            <div class="node gym" id="p-azafran" onclick="updateBattle('gym6')"></div>
+            <div class="label" style="top:260px; left:525px;">CIUDAD AZAFRÁN</div>
+
+            <div class="node town" id="p-lavanda" onclick="updateBattle('lavender')"></div>
+            <div class="label" style="top:195px; left:770px;">PUEBLO LAVANDA</div>
+
+            <div class="node gym" id="p-carmin" onclick="updateBattle('gym3')"></div>
+            <div class="label" style="top:435px; left:525px;">CIUDAD CARMÍN</div>
+
+            <div class="node gym" id="p-fucsia" onclick="updateBattle('gym5')"></div>
+            <div class="label" style="top:585px; left:475px;">CIUDAD FUCSIA</div>
+
+            <div class="node gym" id="p-canela" onclick="updateBattle('gym7')"></div>
+            <div class="label" style="bottom:15px; left:125px;">ISLA CANELA</div>
+        </div>
+
+        <div id="battle-panel">
+            <div class="pokemon-as" id="poke-display">
+                <div class="sprite-box">?</div>
+                <h3 id="poke-name">---</h3>
+            </div>
+            <div class="battle-details" id="battle-text">
+                <h2>Selecciona una ciudad</h2>
+                <p>Haz clic en los puntos rojos para ver al Líder y su Pokémon más fuerte.</p>
+            </div>
+        </div>
+
+    </div>
+
+  <script src="movimiento.js"></script>
+</body>
+</html>
