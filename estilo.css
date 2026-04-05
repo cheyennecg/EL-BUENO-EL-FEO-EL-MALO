@@ -42,7 +42,7 @@ h1 {
 /* --- MAPA --- */
 #map-container {
     position: relative;
-    width: 850px; /* Reducido un poco para dar espacio al panel */
+    width: 900px; /* Reducido un poco para dar espacio al panel */
     height: 700px;
     background-color: var(--grass);
     border: 10px solid #1a1a1a;
@@ -153,7 +153,7 @@ h1 {
 #p-celeste { top: 80px; left: 550px; }
 #p-azulona { top: 230px; left: 400px; }
 #p-azafran { top: 230px; left: 550px; }
-#p-lavanda { top: 230px; left: 680px; }
+#p-lavanda { top: 230px; left: 770px; }
 #p-carmin { top: 400px; left: 550px; }
 #p-fucsia { top: 550px; left: 500px; }
 #p-canela { bottom: 50px; left: 150px; }
