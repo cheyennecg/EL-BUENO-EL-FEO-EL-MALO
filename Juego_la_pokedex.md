@@ -25,8 +25,8 @@ Antes de presentar tu gráfica, asegúrate de marcar todas estas casillas:
 - [ ] **Limpieza Visual:** ¿Has quitado la **cuadrícula**? (Menos ruido = más claridad)
 - [ ] **Honestidad:** ¿Tus ejes están truncados? (Recuerda que los ejes deben empezar en **0** para no distorsionar)
 - [ ] **Identidad Visual:** ¿El color de las barras tiene sentido con el **Pokémon** a batir?
-- [ ] **Identificación:** ¿Tiene un **Título** claro? ¿Es la leyenda realmente necesaria para un solo dato?
-- [ ] **Bonus:** ¿Qué el tipo de variable o variables estoy estudiando? (Ej: *Cualitativa Nominal + Cuantitativa Discreta*)
+- [ ] **Identificación:** ¿Tiene un **título** claro? ¿Es la leyenda realmente necesaria para un solo dato?
+- [ ] **Bonus:** ¿Qué  tipo de variable o variables estoy estudiando? (Ej: *Cualitativa Nominal + Cuantitativa Discreta*)
 
 
 ---
