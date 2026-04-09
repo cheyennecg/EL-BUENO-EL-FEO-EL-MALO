@@ -1,6 +1,6 @@
-# 🎮 Proyecto: El Gimnasio de los Gráficos (Kanto Edition) 📊
+#  Proyecto:  Kanto Edition 📊
 
-¡Bienvenido, Entrenador! En esta misión aplicamos la metodología **"Bueno, Malo y Feo"** para conquistar los gimnasios de Kanto usando el poder de los datos profesionales. 🚀
+¡Bienvenido, Entrenador! En esta misión aplicamos la metodología **"Bueno, Feo y Malo"** para conquistar los gimnasios de Kanto usando el poder de los datos profesionales. 🚀
 
 ---
 
@@ -24,7 +24,7 @@ Antes de presentar tu gráfica, asegúrate de marcar todas estas casillas:
 - [ ] **Selección de Variable:** ¿Has elegido el tipo de gráfico correcto según la naturaleza de tus variables?
 - [ ] **Limpieza Visual:** ¿Has quitado la **cuadrícula**? (Menos ruido = más claridad)
 - [ ] **Honestidad:** ¿Tus ejes están truncados? (Recuerda que los ejes deben empezar en **0** para no distorsionar)
-- [ ] **Identidad Visual:** ¿El color de las barras tiene sentido con el **Pokémon a batir**?
+- [ ] **Identidad Visual:** ¿El color de las barras tiene sentido con el **Pokémon** a batir?
 - [ ] **Identificación:** ¿Tiene un **Título** claro? ¿Es la leyenda realmente necesaria para un solo dato?
 - [ ] **Bonus:** ¿Qué el tipo de variable o variables estoy estudiando? (Ej: *Cualitativa Nominal + Cuantitativa Discreta*)
 
