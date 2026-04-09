@@ -32,7 +32,7 @@ Antes de presentar tu gráfica, asegúrate de marcar todas estas casillas:
 ---
 
 ## 💡 La Prueba de Fuego
-> **Sabrás que tienes una buena gráfica si, en solo 30 segundos, cualquier persona puede identificar el objeto de estudio y la conclusión principal.**
+> **Sabrás que tienes una buena gráfica si, en solo 3 segundos, cualquier persona puede identificar el objeto de estudio y la conclusión principal.**
 
 
   
