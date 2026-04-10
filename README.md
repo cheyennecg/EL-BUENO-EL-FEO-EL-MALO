@@ -10,7 +10,7 @@ En este repositorio encontrarás con más detalle de que va el juego en el MD Ju
 ## 🔍 Objetivo del juego 
 
 - **Ciudad Plateada:** El líder tiene una voluntad de roca. ¿Podrás encontrar su punto débil?
-- **Pueblo Lavanda:** Algo extraño sucede aquí... el mapa se siente diferente en esta zona. ¿Podrás con ello?
+- **Pueblo Carmin :** Algo extraño sucede aquí... el mapa se siente diferente en esta zona. ¿Podrás con ello?
 - **Ciudad Celeste:** No te dejes engañar por la belleza del agua, el "Líder" de esta ciudad brilla con luz propia.
 
 En cuentra tus top 3 Pokemon a batir y preséntalos en tu pokedex de la visualización a través de una buena gráfica 
